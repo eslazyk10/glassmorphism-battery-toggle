@@ -11,12 +11,12 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 105vh;
+  min-height: 100vh;
 }
 
 section.dark {
   background: #161623;
-  min-height: 105vh;
+  min-height: 100vh;
 }
 
 section::before {
