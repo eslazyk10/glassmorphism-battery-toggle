@@ -121,3 +121,23 @@ section::after {
   font-size: 2em;
   font-weight: 700;
 }
+
+.toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #161623;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle::before {
+  content: "\f186";
+  color: #fff;
+  font-family: fontAwesome;
+}
